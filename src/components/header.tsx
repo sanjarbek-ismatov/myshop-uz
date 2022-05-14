@@ -47,7 +47,7 @@ function Header() {
             <img src={logo} alt="Logo" />
             <div className="full-input">
               <select>
-                <option value="all">Hamma kategoriyalar</option>
+                <option value="all">Barchasi</option>
                 <option value="Smartfontlar">Smartfonlar</option>
               </select>
               <input />
@@ -56,6 +56,32 @@ function Header() {
           </div>
         </div>
       </header>
+      <main>
+        <div className="main">
+          <div className="category">
+            <ul className="category-list">
+              <li>
+                <button>Barchasi</button>
+              </li>
+              <li>
+                <button>Barchasi</button>
+              </li>
+              <li>
+                <button>Barchasi</button>
+              </li>
+              <li>
+                <button>Barchasi</button>
+              </li>
+              <li>
+                <button>Barchasi</button>
+              </li>
+              <li>
+                <button>Barchasi</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </main>
     </>
   );
 }
