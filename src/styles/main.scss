@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -113,6 +114,7 @@ header {
   }
 }
 main {
+  font-family: "Roboto";
   color: rgb(104, 104, 104);
   padding: 20px 0;
   .main {
@@ -145,6 +147,24 @@ main {
             color: var(--red-color);
             cursor: pointer;
           }
+        }
+      }
+    }
+    .by-category-products {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 23px 0;
+      .by-category-product {
+        margin: 10px;
+        img {
+          width: 300px;
+        }
+        p {
+          font-size: 16px;
+        }
+        p.title-product {
+          color: #222;
+          font-weight: bold;
         }
       }
     }
