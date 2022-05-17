@@ -178,3 +178,22 @@ main {
     }
   }
 }
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f0e8e8b7;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #000000e8;
+  border-radius: 25px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(43, 43, 43);
+}
